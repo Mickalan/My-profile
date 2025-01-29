@@ -46,7 +46,7 @@ with st.expander("🔬 **My Research Areas** (Click to Expand)"):
     - 🔭 **Large-Scale Structure Analysis**: Investigating galaxy distributions and dark matter effects.
     - 🤖 **Machine Learning in Cosmology**: Applying AI to analyze cosmic datasets.
     - 🛰 **Radio Astronomy & HI Surveys**: Studying neutral hydrogen at cosmic scales.
-    - 📡 **Next-Gen Telescopes**: Working with SKA & MeerKAT to probe the early universe.
+    - 📡 **Next-Gen Telescopes**: Working with HIRAX & LSST to probe the early universe.
     """)
     
 
