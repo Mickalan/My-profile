@@ -3,17 +3,6 @@ import pandas as pd
 from PIL import Image
 import time
 
-st.markdown(
-    """
-    <style>
-    .stApp {
-        background: url("https://source.unsplash.com/1600x900/?space,stars") no-repeat center center fixed;
-        background-size: cover;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
 
 
 # --- Page Config ---
@@ -21,6 +10,28 @@ st.set_page_config(
     page_title="🚀 Researcher Profile - Mickalan Joshua Subramoney",
     page_icon="🌌",
     layout="wide",
+)
+
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background: url("https://source.unsplash.com/1600x900/?galaxy,nebula") no-repeat center center fixed;
+        background-size: cover;
+    }
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);  /* Semi-transparent dark overlay */
+        z-index: -1;
+    }
+    </style>
+    <div class="overlay"></div>
+    """,
+    unsafe_allow_html=True
 )
 
 # --- Cool Animated Header ---
