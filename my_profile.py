@@ -10,6 +10,7 @@ st.set_page_config(
     page_title="🚀 Researcher Profile - Mickalan Joshua Subramoney",
     page_icon="🌌",
     layout="wide",
+)
 st.markdown(
     """
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
