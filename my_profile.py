@@ -10,30 +10,29 @@ st.set_page_config(
     page_title="🚀 Researcher Profile - Mickalan Joshua Subramoney",
     page_icon="🌌",
     layout="wide",
-)
-
 st.markdown(
     """
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <div id="particles-js"></div>
     <style>
-    .stApp {
-        background: url("https://source.unsplash.com/1600x900/?galaxy,nebula") no-repeat center center fixed;
-        background-size: cover;
-    }
-    .overlay {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.5);  /* Semi-transparent dark overlay */
-        z-index: -1;
-    }
+        #particles-js {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            top: 0;
+            left: 0;
+            background: black;
+        }
     </style>
-    <div class="overlay"></div>
+    <script>
+        particlesJS.load('particles-js', 'particles.json', function() {
+            console.log('particles.js loaded - cosmic effect');
+        });
+    </script>
     """,
     unsafe_allow_html=True
 )
-
 # --- Cool Animated Header ---
 st.markdown(
     "<h1 style='text-align: center; color: #FFD700;'>🚀 Researcher Profile Page 🌌</h1>",
@@ -126,7 +125,7 @@ st.markdown(f"""
 # --- Closing Remarks ---
 st.markdown("---")
 st.markdown(
-    "<h4 style='text-align: center; color: #FFD700;'>““Whether or not you can never become great at something, you can always become better at it.” – Niel Degrasse Tyson</h4>",
+    "<h4 style='text-align: center; color: #FFD700;'>“Whether or not you can never become great at something, you can always become better at it.” – Niel Degrasse Tyson</h4>",
     unsafe_allow_html=True,
 )
 
