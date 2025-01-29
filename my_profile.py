@@ -3,6 +3,17 @@ import pandas as pd
 from PIL import Image
 import time
 
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background: url("https://source.unsplash.com/1600x900/?space,stars") no-repeat center center fixed;
+        background-size: cover;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 
 # --- Page Config ---
