@@ -11,29 +11,7 @@ st.set_page_config(
     page_icon="🌌",
     layout="wide",
 )
-st.markdown(
-    """
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <div id="particles-js"></div>
-    <style>
-        #particles-js {
-            position: fixed;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
-            top: 0;
-            left: 0;
-            background: black;
-        }
-    </style>
-    <script>
-        particlesJS.load('particles-js', 'particles.json', function() {
-            console.log('particles.js loaded - cosmic effect');
-        });
-    </script>
-    """,
-    unsafe_allow_html=True
-)
+
 # --- Cool Animated Header ---
 st.markdown(
     "<h1 style='text-align: center; color: #FFD700;'>🚀 Researcher Profile Page 🌌</h1>",
