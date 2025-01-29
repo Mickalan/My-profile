@@ -104,7 +104,7 @@ st.markdown(f"""
 # --- Closing Remarks ---
 st.markdown("---")
 st.markdown(
-    "<h4 style='text-align: center; color: #FFD700;'>“The cosmos is within us. We are made of star-stuff.” – Carl Sagan</h4>",
+    "<h4 style='text-align: center; color: #FFD700;'>““Whether or not you can never become great at something, you can always become better at it..” – Niel Degrasse Tyson</h4>",
     unsafe_allow_html=True,
 )
 
